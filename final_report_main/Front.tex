@@ -1,0 +1,148 @@
+\documentclass[a4paper,12pt]{report}
+
+\title{User Interest Identification from TWITTER Data}
+\author{Akhil S L}
+\linespread{1.5}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{acronym}
+\usepackage{tikz}
+
+\usepackage{verbatim}
+\usetikzlibrary{positioning,fit,calc,shapes}
+\tikzset{block/.style={draw,thick,text width=4.5cm,minimum height=2cm,align=center},
+	line/.style={-latex}
+}
+
+\newcommand{\name}{
+	\textbf{GOKUL S (1402026),ARAVIND S (14402015),AKSHAY VISHNU KISHORE (14402008),AKHIL S L (14402006)}
+}
+\newcommand{\rollno}{
+	\textbf{(14402006)}
+}
+
+\newcommand{\logo}{ %%SCT logo
+	\includegraphics[width=0.6\linewidth]{SCTlogo.png}
+	\label{fig:sctlogo}\\
+}
+
+%chapter heading
+\titleformat
+	{\chapter} %command
+	[display]
+	{\bfseries \Large}
+	{\centering CHAPTER \ \thechapter}
+	{0.5cm}
+	{\centering \Large}
+	[\vspace{1cm}]
+
+\titleformat{\section}
+	{\bfseries \large}
+	{\thesection}{1em}{}
+	
+\titleformat{\subsection}
+	{\bfseries \fontsize{13}{13}}
+	{\thesubsection}{1em}{}
+
+\begin{document}
+
+%%Title Page	
+	\pagenumbering{gobble}
+	\newgeometry{top=1in,left=1.27in,right=2cm,bottom=0.5in}	
+	\begin{center}
+		\textbf{
+			{\LARGE USER INTEREST IDENTIFICATION FROM TWITTER DATA}
+		}\\
+		[\baselineskip] %skip a line
+		\textbf{
+			{\large PROJECT REPORT (SEMESTER - VIII)}
+		}\\
+		[\baselineskip]
+		\textbf{
+			{SUBMITTED BY}
+		}\\
+		[\baselineskip]
+		\textbf{
+			{\large GOKUL S (14402026)}\\
+			{\large ARAVIND S (14402015)}\\
+			{\large AKSHAY VISHNU KISHORE (14402008)}\\
+			{\large AKHIL S L (14402006)}
+		}\\
+		[\baselineskip]
+		\textbf{
+		\textit{
+			{in partial fulfilment for the award of the degree of}
+		}		
+		}\\
+		[\baselineskip]
+		\textbf{
+			{\Large BACHELOR OF TECHNOLOGY}
+		}\\
+		[\baselineskip]
+		\textbf{
+			{\Large IN}
+		}\\
+		[\baselineskip]
+		\textbf{
+			{\Large COMPUTER SCIENCE AND ENGINEERING}
+		}\\
+		[\baselineskip]
+		%SCT logo image
+		\includegraphics[width=0.6\linewidth]{SCTlogo.png}
+		\label{fig:sctlogo}\\
+		[\baselineskip]
+		\textbf{
+			{\large SREE CHITRA THIRUNAL COLLEGE OF ENGINEERING,}
+		}\\
+		\textbf{
+			{\large THIRUVANANTHAPURAM - 18}
+		}\\
+		\textbf{
+			{\large APRIL 2018}
+		}\\
+				
+	\end{center}
+%%Title Page
+%%Certificate Page	
+	\newpage
+	\input{Certificate.tex}
+%%Acknowledgement Page
+	\newpage
+	\input{Acknowledgement.tex}
+	\newpage
+%%Table of Contents
+	\pagenumbering{roman}
+	\renewcommand*\contentsname{
+		\centering
+			\textbf{\Large CONTENTS}
+	}
+\newgeometry{top=0.5in,left=1.27in,right=2cm,bottom=1in}	
+	\tableofcontents
+	\newpage
+%%List of Abbreviations
+	\newgeometry{top=2in,left=1.27in,right=2cm,bottom=1in}	
+	\addcontentsline{toc}{chapter}{LIST OF ABBREVIATIONS}
+	\begin{center}
+		\textbf{{\Large LIST OF ABBREVIATIONS}}\\
+	\end{center}	
+	
+	     \textbf{SVM : }{Support Vector Machine}   \\
+	       
+	     \textbf{OVA : }{One Versus All}\\
+	     
+	\newpage
+	
+%%List of Figures
+	\newgeometry{top=1in,left=1.27in,right=2cm,bottom=1in}
+	\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+	\renewcommand{\listfigurename}{\textbf{\Large LIST OF FIGURES}}	
+	\listoffigures	
+%%Content Page
+	\newpage
+	\pagenumbering{arabic}
+	\input{Content.tex}
+		
+\end{document}
