@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.4.19)  3 MAY 2018 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.4.19)  3 MAY 2018 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1259,93 +1259,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--780
  []
 
 [30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
+
+ []
+
 <common_dict1.png, id=148, 1371.1225pt x 770.88pt>
 File: common_dict1.png Graphic file (type png)
 <use common_dict1.png>
-Package pdftex.def Info: common_dict1.png  used on input line 806.
+Package pdftex.def Info: common_dict1.png  used on input line 808.
 (pdftex.def)             Requested size: 359.0567pt x 201.87088pt.
 <common_dict2.png, id=149, 1371.1225pt x 770.88pt>
 File: common_dict2.png Graphic file (type png)
 <use common_dict2.png>
-Package pdftex.def Info: common_dict2.png  used on input line 812.
+Package pdftex.def Info: common_dict2.png  used on input line 814.
 (pdftex.def)             Requested size: 359.0567pt x 201.87088pt.
- [32 <./common_dict1.png> <./common_dict2.png>]
+[32 <./common_dict1.png>] [33 <./common_dict2.png>]
 CHAPTER 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--823
+Underfull \hbox (badness 10000) in paragraph at lines 823--825
 
  []
 
-<sentiment_server.png, id=153, 1371.1225pt x 770.88pt>
+<sentiment_server.png, id=156, 1371.1225pt x 770.88pt>
 File: sentiment_server.png Graphic file (type png)
 <use sentiment_server.png>
-Package pdftex.def Info: sentiment_server.png  used on input line 828.
+Package pdftex.def Info: sentiment_server.png  used on input line 830.
 (pdftex.def)             Requested size: 403.93451pt x 227.1018pt.
-<image1.png, id=154, 1371.1225pt x 770.88pt>
+<image1.png, id=157, 1371.1225pt x 770.88pt>
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 836.
+Package pdftex.def Info: image1.png  used on input line 838.
 (pdftex.def)             Requested size: 403.93451pt x 227.1018pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<image2.png, id=155, 1371.1225pt x 770.88pt>
+<image2.png, id=158, 1371.1225pt x 770.88pt>
 File: image2.png Graphic file (type png)
 <use image2.png>
-Package pdftex.def Info: image2.png  used on input line 843.
+Package pdftex.def Info: image2.png  used on input line 845.
 (pdftex.def)             Requested size: 403.93451pt x 227.1018pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<new_out_sent.png, id=156, 1371.1225pt x 770.88pt>
+<new_out_sent.png, id=159, 1371.1225pt x 770.88pt>
 File: new_out_sent.png Graphic file (type png)
 <use new_out_sent.png>
-Package pdftex.def Info: new_out_sent.png  used on input line 850.
+Package pdftex.def Info: new_out_sent.png  used on input line 852.
 (pdftex.def)             Requested size: 359.0567pt x 201.87088pt.
-<sachin_topic.png, id=157, 1371.1225pt x 770.88pt>
+<sachin_topic.png, id=160, 1371.1225pt x 770.88pt>
 File: sachin_topic.png Graphic file (type png)
 <use sachin_topic.png>
-Package pdftex.def Info: sachin_topic.png  used on input line 857.
+Package pdftex.def Info: sachin_topic.png  used on input line 859.
 (pdftex.def)             Requested size: 403.93451pt x 227.1018pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sachin_topic_1.png, id=158, 1371.1225pt x 770.88pt>
+<sachin_topic_1.png, id=161, 1371.1225pt x 770.88pt>
 File: sachin_topic_1.png Graphic file (type png)
 <use sachin_topic_1.png>
-Package pdftex.def Info: sachin_topic_1.png  used on input line 864.
+Package pdftex.def Info: sachin_topic_1.png  used on input line 866.
 (pdftex.def)             Requested size: 403.93451pt x 227.1018pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+[34
 
-] [34 <./sentiment_server.png> <./image1.png>] [35 <./image2.png> <./new_out_se
-nt.png>] [36 <./sachin_topic.png> <./sachin_topic_1.png>]
+] [35 <./sentiment_server.png> <./image1.png>] [36 <./image2.png> <./new_out_se
+nt.png>] [37 <./sachin_topic.png> <./sachin_topic_1.png>]
 CHAPTER 6.
-[37
-
-]
-CHAPTER 7.
 [38
 
 ]
+CHAPTER 7.
+[39
+
+]
 CHAPTER 8.
+[40
 
-Overfull \hbox (166.15654pt too wide) in paragraph at lines 889--890
-\OT1/cmr/m/n/12 B-LIN-EAR: A Li-brary for Large Lin-ear Clas-si-fi-ca-tion "htt
-p://jmlr.csail.mit.edu/papers/volume9/fan08a/fan08a.pdf 
- []
-
+]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
-[39
-
-]) [40] (./Front.aux)
+) [41] (./Front.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1367,10 +1366,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on Front.pdf (48 pages, 4294060 bytes).
+Output written on Front.pdf (49 pages, 4295071 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
+ 221 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

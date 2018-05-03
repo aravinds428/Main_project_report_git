@@ -358,7 +358,7 @@ SVM uses 3 kernels :
  \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.9\linewidth]{svm_kernal.png}
-	\caption{one vs all classifier}
+	\caption{Different types of kernals}
 	\label{fig:expression01}
 \end{figure}
 
@@ -369,7 +369,7 @@ From the literature review, it was clear that in particular, the most  common te
  \begin{figure}[!ht]
  	\centering
  	\includegraphics[width=0.9\linewidth]{svm_multi.png}
- 	\caption{one vs all classifier}
+ 	\caption{One vs all classifier}
  	\label{fig:expression01}
  \end{figure}
  \paragraph{}
@@ -565,7 +565,7 @@ After the keywords are generated there is a need to split the words into individ
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.9\linewidth]{preprocess.png}
-	\caption{output after preprocessing}
+	\caption{Output after preprocessing}
 	\label{fig:expression01}
 \end{figure}
 
@@ -782,13 +782,14 @@ being modified. This scale can be applied to other parts of speech, given that a
 \subsubsection{DICTIONARIES USED}
 \begin{itemize}
 	\item \textbf{Sentiment Orientation dictionary} \\
-	A sentiment polarity dictionary consisting of all sentiment words along with their polarities was used.
+	A sentiment polarity dictionary consisting of all sentiment words along with their polarities was used. Over 7000 words along with their polarities were represented.
 	\item \textbf{Negator dictionary} \\
-	A dictionary consisting of all negators were used.
+	A dictionary consisting of all negators were used. The negators along with a flag with value 1 was represented in the negator dictionary. The flag value indicates the word is a negator.
 	\item \textbf{Intensifier dictionary} \\
-	A dictionary of intensifier words along with their degree of intensification was used. The degree of intensification was represented in percentage.
-	content...
+	A dictionary of intensifier words along with their degree of intensification was used. The degree of intensification was represented in percentage. The intensifier word is the key and the degree of intensification is the value.
+
 \end{itemize}
+All the dictionaries were represented as hash tables for faster search and retrival. The python dictionary data structure was used for its representation.
 \subsubsection{DATA STRUCTURE USED}
 \subsubsection{HASH TABLE}
 hash table (hash map) is a data structure which implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
@@ -800,17 +801,18 @@ In a well-dimensioned hash table, the average cost (number of instructions) for 
 The dictionaries were represented in hash tables. The python dictionary data type was used to create the hash tables.
 
 The use of hash table resulted in a time complexity of $ O(1) $ for search and retrieval of  sentiment polarity of the words.
+\\
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\linewidth]{common_dict1.png}
-	\caption{sentiment dictionary positive words}
+	\caption{Sentiment dictionary positive words}
 	\label{types}
 \end{figure}
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\linewidth]{common_dict2.png}
-	\caption{sentiment dictionary negative words}
+	\caption{Sentiment dictionary negative words}
 	\label{types}
 \end{figure}
 
@@ -818,15 +820,15 @@ The use of hash table resulted in a time complexity of $ O(1) $ for search and r
 \renewcommand\chaptername{CHAPTER}
 \chapter{OUTPUT}
 \subsection{Sentiment analysis}
-\paragraph{} The percentage of positive, negative and neutral tweets were represented in the form of a pie chart. The percentage distribution of positive, negative and neutral tweets were given to the webpage. The pie chart is then plotted for these values.
+\paragraph{} The percentage of positive, negative and neutral tweets were represented in the form of a pie chart. The percentage distribution of positive, negative and neutral tweets were given to the webpage. The pie chart is then plotted for these values. The accuracy of the system is 83 percent.
 \\
 \subsection{Topic modelling}
-\paragraph{} The percentage of tweets from categories Sports, Finance, Politics, Technology and Entertainment were represented in the form of a pie chart. The percentage tweet distribution from individual categories were given to the webpage. The pie chart is then plotted for these values.
+\paragraph{} The percentage of tweets from categories Sports, Finance, Politics, Technology and Entertainment were represented in the form of a pie chart. The percentage tweet distribution from individual categories were given to the webpage. The pie chart is then plotted for these values. The accuracy of the system was observed to be 78 percent.
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.9\linewidth]{sentiment_server.png}
-	\caption{sentiment analysis}
+	\caption{Sentiment analysis tweet collection}
 	\label{fig:expression01}
 \end{figure}
 
@@ -834,35 +836,35 @@ The use of hash table resulted in a time complexity of $ O(1) $ for search and r
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{image1.png}
-	\caption{front end screenshot 1}
+	\caption{Front end screenshot 1}
 	\label{fig:expression01}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{image2.png}
-	\caption{front end screenshot 2}
+	\caption{Front end screenshot 2}
 	\label{fig:expression01}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\linewidth]{new_out_sent.png}
-	\caption{output}
+	\caption{Output}
 	\label{types}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{sachin_topic.png}
-	\caption{front end screenshot 3}
+	\caption{Front end screenshot 3}
 	\label{fig:expression01}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{sachin_topic_1.png}
-	\caption{output of topic modeling}
+	\caption{Output of topic modeling}
 	\label{fig:expression01}
 \end{figure}
 
@@ -886,7 +888,8 @@ The location based sentiment analysis can be used for analysing the user opinion
 	
 \chapter{REFERENCES}
 \begin{enumerate}
-\item[[ 1]]{ Rong-En Fan Kai-Wei, Chang Cho-Jui Hsieh, Xiang-Rui Wang, Chih-Jen Li "LIBLINEAR: A Library for Large Linear Classification "http://jmlr.csail.mit.edu/papers/volume9/fan08a/fan08a.pdf}
+\item[[ 1]]{ Rong-En Fan Kai-Wei, Chang Cho-Jui Hsieh, Xiang-Rui Wang, Chih-Jen Li "LIBLINEAR: A Library for Large Linear Classification "http://jmlr.csail.mit.edu/
+papers/volume9/fan08a/fan08a.pdf}
 
 \item[[ 2]]{  Chih-Wei Hsu, Chih-Chung Chang, and Chih-Jen Lin "A practical guide to libSVM" http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf}
 
@@ -896,14 +899,15 @@ doi: 10.1109/IJCNN.2005.1555963}
 \item[[ 4]]{ R. Wang, S. Kwong and D. G. Chen, "A new method for multi-class support vector machines by training least number of classifiers," 2011 International Conference on Machine Learning and Cybernetics, Guilin, 2011, pp. 648-653.
 doi: 10.1109/ICMLC.2011.6016830}
 
-\item[[ 4]]{ }
+\item[[ 5]]{ G. Madzarov and D. Gjorgjevikj, "Multi-class classification using support vector machines in decision tree architecture," IEEE EUROCON 2009, St.-Petersburg, 2009, pp. 288-295.
+doi: 10.1109/EURCON.2009.5167645}
 
-\item[[ 5]]{Solanki Yogesh,	S. Y. Ganeshbhai and B. K. Shah, "Feature based opinion mining: A survey," 2015 IEEE International Advance Computing Conference (IACC), Banglore, 2015, pp. 919-923.	
+\item[[ 6]]{Solanki Yogesh,	S. Y. Ganeshbhai and B. K. Shah, "Feature based opinion mining: A survey," 2015 IEEE International Advance Computing Conference (IACC), Banglore, 2015, pp. 919-923.	
 }
-\item[[ 6]] { K. Z. Aung and N. N. Myo, "Sentiment analysis of students' comment using lexicon based approach," 2017 IEEE/ACIS 16th International Conference on Computer and Information Science (ICIS), Wuhan, 2017, pp. 149-154.
+\item[[ 7]] { K. Z. Aung and N. N. Myo, "Sentiment analysis of students' comment using lexicon based approach," 2017 IEEE/ACIS 16th International Conference on Computer and Information Science (ICIS), Wuhan, 2017, pp. 149-154.
 	doi: 10.1109/ICIS.2017.7959985}
 
-\item[[ 7]] {Peiman Barnaghi and John G. Breslin and Parsa Ghaffari, “Opinion Mining and Sentiment Polarity on Twitter and Correlation Between Events and Sentiment”, 2016 IEEE Second International Conference on Big data Computing Service and Applications
+\item[[ 8]] {Peiman Barnaghi and John G. Breslin and Parsa Ghaffari, “Opinion Mining and Sentiment Polarity on Twitter and Correlation Between Events and Sentiment”, 2016 IEEE Second International Conference on Big data Computing Service and Applications
 }
 
 \end{enumerate}

@@ -4,22 +4,22 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Block diagram}}{10}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Block diagram}}{11}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Block diagram}}{13}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces one vs all classifier}}{16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces one vs all classifier}}{17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Different types of kernals}}{16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces One vs all classifier}}{17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces output after preprocessing}}{22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Output after preprocessing}}{22}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Word dictionary containing a unique index for each of the words occurring in the tweets present in the training data set}}{23}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Tweet category dictionary}}{24}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Liblinear format}}{25}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces sentiment dictionary positive words}}{32}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces sentiment dictionary negative words}}{32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sentiment dictionary positive words}}{32}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sentiment dictionary negative words}}{33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces sentiment analysis}}{34}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces front end screenshot 1}}{34}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces front end screenshot 2}}{35}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces output}}{35}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces front end screenshot 3}}{36}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces output of topic modeling}}{36}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sentiment analysis tweet collection}}{35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Front end screenshot 1}}{35}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Front end screenshot 2}}{36}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Output}}{36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Front end screenshot 3}}{37}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Output of topic modeling}}{37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
