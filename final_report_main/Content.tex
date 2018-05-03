@@ -409,9 +409,6 @@ the machine learning method.
 \section{ALGORITHM:}
 \subsection{ALGORITHM FOR USER INTEREST}
 
-
-
-
 \textbf{procedure preprocess(tweets:)}
 \begin{enumerate}
     \item for each tweet in tweets:
@@ -439,8 +436,6 @@ the machine learning method.
     
     \item return restweets
 \end{enumerate}
-\paragraph{}
-\paragraph{}
 \paragraph{}
 
 \textbf{procedure generate-dicts(tweet,catid) : }
@@ -512,28 +507,31 @@ the machine learning method.
 19. \indent \indent \indent \indent intensifierFlag = getIntensification(token) \\
 20. \indent return currPol \\
 
+\indent
 \textbf{procedure convertToDictionary()} \\
 1. \indent wordFile = open SoTextFile for reading \\
 2. \indent for entry in wordFile  \\
-3. \indent \indent temp = split into word and value \\
+3. \indent \indent temp = split entry into word and value \\
 4. \indent \indent key = temp.word \\
 5. \indent \indent value = temp.value \\
 6. \indent \indent if wordDict[key] = 0 then \\
 7. \indent \indent \indent add to wordDict key, value \\
 
+\indent
 \textbf{procedure getIntensification(word)} \\
-\indent checkFlag = checkValid(word) \\
-\indent if checkFlag = True then \\
-\indent \indent return intensifierDict[word] \\
-\indent else \\
-\indent \indent return 0
+1. \indent checkFlag = checkValid(word) \\
+2. \indent if checkFlag = True then \\
+3. \indent \indent return intensifierDict[word] \\
+4. \indent else \\
+5. \indent \indent return 0
 
+\indent
 \textbf{procedure isNegator(word)} \\
-\indent checkFlag = checkValid(word) \\
-\indent if checkFlag = True then \\
-\indent \indent return negDict[word] \\
-\indent else \\
-\indent \indent return 0 \\
+1. \indent checkFlag = checkValid(word) \\
+2. \indent if checkFlag = True then \\
+3. \indent \indent return negDict[word] \\
+4. \indent else \\
+5. \indent \indent return 0 \\
 
 \chapter{IMPLEMENTATION}
 \indent 

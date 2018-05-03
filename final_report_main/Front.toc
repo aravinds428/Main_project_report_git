@@ -36,8 +36,6 @@
 \contentsline {subsection}{\numberline {3.3.1}ALGORITHM FOR USER INTEREST}{17}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
-\contentsline {paragraph}{}{18}
-\contentsline {paragraph}{}{19}
 \contentsline {paragraph}{}{19}
 \contentsline {subsection}{\numberline {3.3.2}Algotithm for sentiment analysis}{19}
 \contentsline {chapter}{\numberline {4}IMPLEMENTATION}{21}
